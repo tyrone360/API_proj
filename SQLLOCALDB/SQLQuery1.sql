@@ -37,7 +37,10 @@ CREATE TABLE Location
     PostalCode NVARCHAR(10) NOT NULL
 );
 
-
+/* Start of create table category which will include so many
+   category name with id. Which will include age limite 
+    regarding user
+*/
 CREATE TABLE Category
 (
     CategoryID INT IDENTITY(1,1) PRIMARY KEY,
@@ -57,7 +60,9 @@ CREATE TABLE Category
         CHECK (AgeLimit >= 0)
 );
 
-
+/* Start of create table events which will include somany
+   types of ids with descriptions
+*/
 CREATE TABLE Event
 (
     EventID INT IDENTITY(1,1) PRIMARY KEY,
