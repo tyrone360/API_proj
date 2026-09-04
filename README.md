@@ -106,7 +106,7 @@ The API uses standard RESTful HTTP methods including:
 - PUT
 - DELETE
 
-The endpoint plan is available in the `/docs` folder.
+The endpoint plan is available in the `/SQLLOCALDB` folder.
 
 
 ## Section C - SQL Database
@@ -132,8 +132,7 @@ Sample data includes:
 
 The complete SQL script is stored in:
 
-`/docs/RaceDayDatabase.sql`
-
+`/SQLLOCALDB/SQLQuery1.sql`
 
 ## Database Constraints
 
@@ -161,6 +160,7 @@ For example, a participant cannot register for the same event more than once bec
 7. Execute the sample data INSERT statements.
 8. Run the SELECT statements to check the data.
 9. Run the relationship JOIN query to confirm that the tables are connected correctly.
+
 
 
 ## Testing
