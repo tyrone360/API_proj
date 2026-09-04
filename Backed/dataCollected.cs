@@ -6,9 +6,7 @@ namespace API_proj.Backed
     public class dataCollected
     {//start of class
 
-
         public string personal_Information(string name, string surname, int age) {
-
 
             string message = " ";
 
@@ -39,18 +37,13 @@ namespace API_proj.Backed
 
             }//end try
 
-
             catch (Exception error)
             {//start of catch
 
                 message = error.Message;
 
-
-
             }//end of catch
-
             return message;
         }//end method
-
     }//end of class
 }//end of namespace
