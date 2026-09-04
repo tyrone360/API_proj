@@ -6,8 +6,6 @@ RaceDay is an event management system designed to manage running, walking and cy
 
 This project was developed as part of POE 1 at Rosebank International University.
 
----
-
 ## Project Overview
 
 The main purpose of RaceDay is to provide a simple database system for managing sporting events.
@@ -23,7 +21,6 @@ The system stores information about:
 
 The database was designed using an Entity Relationship Diagram (ERD) before the SQL database was created.
 
----
 
 ## User Roles
 
@@ -56,8 +53,6 @@ The administrator can:
 - Manage system information
 - Remove incorrect records when necessary
 
----
-
 ## Database Structure
 
 The RaceDay database contains the following main tables:
@@ -72,8 +67,6 @@ The RaceDay database contains the following main tables:
 | Result | Stores participant race results |
 
 The database uses primary keys and foreign keys to connect the tables and maintain relationships between the different records.
-
----
 
 ## Section A - ERD
 
@@ -92,7 +85,6 @@ The relationships shown in the ERD were used when creating the SQL database.
 
 The ERD is available in the `/docs` folder.
 
----
 
 ## Section B - API Endpoint Plan
 
@@ -116,7 +108,6 @@ The API uses standard RESTful HTTP methods including:
 
 The endpoint plan is available in the `/docs` folder.
 
----
 
 ## Section C - SQL Database
 
@@ -143,7 +134,6 @@ The complete SQL script is stored in:
 
 `/docs/RaceDayDatabase.sql`
 
----
 
 ## Database Constraints
 
@@ -160,8 +150,6 @@ These include:
 
 For example, a participant cannot register for the same event more than once because the UserID and EventID combination is unique in the EventEnrollment table.
 
----
-
 ## How to Run the SQL Database
 
 1. Open Microsoft SQL Server Management Studio.
@@ -174,7 +162,6 @@ For example, a participant cannot register for the same event more than once bec
 8. Run the SELECT statements to check the data.
 9. Run the relationship JOIN query to confirm that the tables are connected correctly.
 
----
 
 ## Testing
 
@@ -189,7 +176,6 @@ The database was tested by:
 
 The SQL JOIN query was also used to confirm that related information could be retrieved from multiple tables.
 
----
 
 ## Project Folder Structure
 
