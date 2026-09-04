@@ -9,8 +9,6 @@ namespace API_proj.Controllers
 
     public class user_asking_controller : ControllerBase
     {//start of class
-
-//
         [HttpPost]
 
         public string Backed(string connection)
@@ -34,8 +32,6 @@ namespace API_proj.Controllers
             string message = store_data.personal_Information(name, surname, age);
 
             return "This is your name " + name + "This is your surname " + surname + "This is your age" + age;
-
-
 
         }//end of controller
     }//end of class
