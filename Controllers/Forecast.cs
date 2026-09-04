@@ -17,8 +17,5 @@ namespace API_proj.Controllers
         public string Description { get; set; }
 
         public string Message { get; set; }
-
-
-
     }//end of class
 }//end of namespace
