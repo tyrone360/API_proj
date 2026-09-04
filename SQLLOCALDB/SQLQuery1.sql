@@ -85,7 +85,9 @@ CREATE TABLE Event
         CHECK (MaxParticipants > 0)
 );
 
-
+/* Start of create table eventenrollment that will store users
+   registration information known as information
+*/
 CREATE TABLE EventEnrollment
 (
     EnrollmentID INT IDENTITY(1,1) PRIMARY KEY,
