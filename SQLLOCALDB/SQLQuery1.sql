@@ -1,7 +1,5 @@
 /* =========================================================
    RaceDay Event Management System
-   POE 1 - Section C: SQL Database Script
-   Database: RaceDayDB
    ========================================================= */
 
 
@@ -10,7 +8,6 @@
 CREATE DATABASE RaceDayDB;
 
 USE RaceDayDB;
-Go
 
 
 CREATE TABLE Users
