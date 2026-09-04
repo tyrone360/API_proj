@@ -3,13 +3,15 @@
    ========================================================= */
 
 
-/* 1. CREATE DATABASE */
+/* Start of create databse 
+*/
 
 CREATE DATABASE RaceDayDB;
 
 USE RaceDayDB;
 
-
+/* Start of create table for the user to store information
+*/
 CREATE TABLE Users
 (
     UserID INT IDENTITY(1,1) PRIMARY KEY,
@@ -23,7 +25,8 @@ CREATE TABLE Users
         CHECK (Role IN ('Participant', 'Organiser', 'Admin'))
 );
 
-
+/* Start of create table location to identify the user visibility
+*/
 CREATE TABLE Location
 (
     LocationID INT IDENTITY(1,1) PRIMARY KEY,
