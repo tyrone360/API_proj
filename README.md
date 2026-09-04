@@ -180,7 +180,7 @@ The SQL JOIN query was also used to confirm that related information could be re
 ## Project Folder Structure
 
 ```text
-RaceDay/
+SQLLOCALDB/
 │
 ├── docs/
 │   ├── ERD.png
