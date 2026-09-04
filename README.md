@@ -83,7 +83,7 @@ The ERD contains six main entities:
 
 The relationships shown in the ERD were used when creating the SQL database.
 
-The ERD is available in the `/docs` folder.
+The ERD is available in the `/SQLLOCALDB` folder.
 
 
 ## Section B - API Endpoint Plan
@@ -152,7 +152,7 @@ For example, a participant cannot register for the same event more than once bec
 ## How to Run the SQL Database
 
 1. Open Microsoft SQL Server Management Studio.
-2. Open the `RaceDayDatabase.sql` file.
+2. Open the `SQLQuery1.sql` file.
 3. Connect to the SQL Server instance.
 4. Execute the database creation section if the database does not already exist.
 5. Select the `RaceDayDB` database.
@@ -183,9 +183,9 @@ The SQL JOIN query was also used to confirm that related information could be re
 RaceDay/
 │
 ├── docs/
-│   ├── RaceDay-ERD.png
-│   ├── API-Endpoint-Plan.md
-│   └── RaceDayDatabase.sql
+│   ├── ERD.png
+│   ├── PROG.md
+│   └── SQLQuery1.sql
 │
 ├── README.md
 │
