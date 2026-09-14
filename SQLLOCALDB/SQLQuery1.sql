@@ -24,7 +24,6 @@ CREATE TABLE Users
     CONSTRAINT CK_Users_Role
         CHECK (Role IN ('Participant', 'Organiser', 'Admin'))
 );
-
 /* Start of create table location to identify the user visibility
 */
 CREATE TABLE Location
@@ -36,7 +35,6 @@ CREATE TABLE Location
     Province NVARCHAR(50) NOT NULL,
     PostalCode NVARCHAR(10) NOT NULL
 );
-
 /* Start of create table category which will include so many
    category name with id. Which will include age limite 
     regarding user
@@ -59,7 +57,6 @@ CREATE TABLE Category
     CONSTRAINT CK_Category_AgeLimit
         CHECK (AgeLimit >= 0)
 );
-
 /* Start of create table events which will include somany
    types of ids with descriptions
 */
@@ -84,7 +81,6 @@ CREATE TABLE Event
     CONSTRAINT CK_Event_MaxParticipants
         CHECK (MaxParticipants > 0)
 );
-
 /* Start of create table eventenrollment that will store users
    registration information known as information
 */
@@ -112,7 +108,6 @@ CREATE TABLE EventEnrollment
     CONSTRAINT UQ_User_Event
         UNIQUE (UserID, EventID)
 );
-
 
 CREATE TABLE Result
 (
