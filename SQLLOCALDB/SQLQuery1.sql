@@ -6,6 +6,8 @@
 /* Start of create databse 
 */
 
+//
+
 CREATE DATABASE RaceDayDB;
 
 USE RaceDayDB;
@@ -108,7 +110,7 @@ CREATE TABLE EventEnrollment
     CONSTRAINT UQ_User_Event
         UNIQUE (UserID, EventID)
 );
-
+//
 CREATE TABLE Result
 (
     ResultID INT IDENTITY(1,1) PRIMARY KEY,
@@ -162,7 +164,7 @@ VALUES
      'HASH_ADMIN_001',
      'Admin');
 
-
+//
 INSERT INTO Location
     (LocationName, Address, City, Province, PostalCode)
 VALUES
@@ -205,7 +207,7 @@ VALUES
      20.00,
      200.00,
      16);
-
+//
 
 INSERT INTO Event
     (EventName, EventDate, Description,
