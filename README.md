@@ -1,6 +1,5 @@
 # RaceDay Event Management System
 
-// Student Project - POE 1
 
 RaceDay is an event management system designed to manage running, walking and cycling events. The system allows participants to register for events and allows organisers to manage events and record participant results.
 
@@ -34,7 +33,6 @@ Participants can:
 - View their race results
 - Cancel an enrolment
   
-// Organiser
 
 
 Organisers can:
@@ -45,7 +43,6 @@ Organisers can:
 - View participant enrolments
 - Record race results
 
-// Administrator
 
 
 The administrator can:
