@@ -17,7 +17,7 @@ namespace API_proj.Controllers
             //try and catch
             //connect tot the database
 
-            connection = "";
+            connection = "@Data source=(localdb)\User_Register;database=User_Register";
 
             return connection;
 
