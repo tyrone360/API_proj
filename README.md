@@ -7,6 +7,8 @@ This project was developed as part of POE 1 at Rosebank International University
 
 ## Project Overview
 
+
+
 The main purpose of RaceDay is to provide a simple database system for managing sporting events.
 
 The system stores information about:
@@ -19,11 +21,6 @@ The system stores information about:
 - Race results
 
 The database was designed using an Entity Relationship Diagram (ERD) before the SQL database was created.
-
-
-//User Roles
-
-// Participant
 
 Participants can:
 
@@ -67,7 +64,7 @@ The RaceDay database contains the following main tables:
 
 The database uses primary keys and foreign keys to connect the tables and maintain relationships between the different records.
 
-## Section A - ERD
+ ERD
 
 The Entity Relationship Diagram was created to show the structure of the RaceDay database.
 
@@ -106,6 +103,7 @@ The API uses standard RESTful HTTP methods including:
 - DELETE
 
 The endpoint plan is available in the `/SQLLOCALDB` folder.
+
 
 
 ## Section C - SQL Database
